@@ -1,0 +1,107 @@
+.container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.diary-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.diary-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.diary-form .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.diary-form input, .diary-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.diary-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.attachment-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.attachment-section .form-label {
+    margin-right: 10px;
+}
+
+.attachment-section input[type="file"] {
+    flex: 1;
+    max-width: 200px;
+}
+
+.attachment-section .remove-file-button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button-group .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-group .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.button-group .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-group .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+
+
+
+
+
